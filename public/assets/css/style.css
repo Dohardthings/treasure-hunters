@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative);
+
 
 body {
     background: #fff;
@@ -19,6 +21,13 @@ img { max-width: 100%; }
 ::-moz-selection { background: #e8643e; color: #fff; text-shadow: none; }
 ::selection { background: #e8643e; color: #fff; text-shadow: none; }
 
+
+h1 {
+  font-family: 'Cinzel Decorative';
+  color: #c96f05;
+  text-shadow: 3px 1px 1px black;
+  font-size: 4.5rem;
+}
 
 /***** Top menu *****/
 
@@ -107,13 +116,18 @@ nav a:focus { color: #e8643e; }
 .coming-soon h2 {
     font-size: 46px;
     font-weight: 100;
+    text-shadow: 2px 2px 2px black;
 }
 
 .coming-soon p {
 	margin: 40px 0 10px 0;
 	padding: 0 320px;
-    font-size: 22px;
+    font-size: 3rem;
     line-height: 36px;
+    color: #d6dd54;
+    text-shadow: 1px 0px 1px black;
+    font-family: 'Cinzel Decorative';
+    font-weight: 700;
 }
 
 .timer {
@@ -183,7 +197,7 @@ nav a:focus { color: #e8643e; }
 	font-weight: 300;
 }
 
-.coming-soon p.top-arrow i:before, 
+.coming-soon p.top-arrow i:before,
 .coming-soon p.top-arrow i:after {
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -204,6 +218,7 @@ nav a:focus { color: #e8643e; }
     font-weight: 100;
     color: #555;
     line-height: 50px;
+    font-family: 'Cinzel Decorative';
 }
 
 .subscribe p {
@@ -440,8 +455,8 @@ nav a:focus { color: #e8643e; }
 	opacity: 1;
 }
 
-.whos-behind-box-1 .whos-behind-photo .whos-behind-social, 
-.whos-behind-box-1 .whos-behind-photo .whos-behind-social a, 
+.whos-behind-box-1 .whos-behind-photo .whos-behind-social,
+.whos-behind-box-1 .whos-behind-photo .whos-behind-social a,
 .whos-behind-box-1 .whos-behind-photo .whos-behind-social a:hover {
 	border: 0;
 	font-size: 18px;
@@ -520,13 +535,13 @@ nav a:focus { color: #e8643e; }
     line-height: 36px;
 }
 
-.contact-form, 
+.contact-form,
 .contact-address {
 	padding-bottom: 80px;
 	text-align: left;
 }
 
-.contact-form h4, 
+.contact-form h4,
 .contact-address h4 {
 	padding: 0 0 10px 0;
 	font-size: 30px;
@@ -546,7 +561,7 @@ nav a:focus { color: #e8643e; }
 	margin: 15px 0 0 0;
 }
 
-.contact-form form input, 
+.contact-form form input,
 .contact-form form textarea {
     width: 90%;
     height: 52px;

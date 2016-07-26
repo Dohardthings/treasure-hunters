@@ -39,7 +39,7 @@ jQuery(document).ready(function() {
       "assets/img/backgrounds/1.jpg"
     , "assets/img/backgrounds/2.jpg"
     , "assets/img/backgrounds/3.jpg"
-    ], {duration: 3000, fade: 750});
+	], {duration: 10000000, fade: 750});
 
     $('.about-container').backstretch("assets/img/backgrounds/2.jpg");
 
