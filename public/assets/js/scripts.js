@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
 
     $('.about-container').backstretch("assets/img/backgrounds/2.jpg");
 
-    $('.whos-behind-container').backstretch("assets/img/backgrounds/4.jpg");
+    $('.whos-behind-container').backstretch("assets/img/backgrounds/456.jpg");
 
     /*
         Countdown initializer
@@ -107,12 +107,12 @@ jQuery(document).ready(function() {
     /*
 	    Google maps
 	*/
-    var position = new google.maps.LatLng(45.067883, 7.687231);
-    $('.contact-address .map').gmap({'center': position, 'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
-            var self = this;
-            self.addMarker({'position': this.get('map').getCenter() });
-        }
-    });
+    // var position = new google.maps.LatLng(45.067883, 7.687231);
+    // $('.contact-address .map').gmap({'center': position, 'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
+    //         var self = this;
+    //         self.addMarker({'position': this.get('map').getCenter() });
+    //     }
+    // });
 
     /*
         Subscription form
