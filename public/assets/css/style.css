@@ -462,10 +462,49 @@ nav a:focus { color: #e8643e; }
 .whos-behind-box-1 .whos-behind-photo {
 	position: relative;
     width: 140px;
-    height: 140px;
+    height: 163px;
     margin: 0 auto;
     overflow: hidden;
     cursor: pointer;
+}
+
+.hex-item {
+  display: inline-block;
+  position: relative;
+  width: 140px;
+}
+
+.hexagon {
+  position: absolute;
+  top: -73px;
+  width: 140px;
+  height: 280px;
+  transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  overflow: hidden;
+}
+
+.hexagon-in1 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 125%;
+  overflow: hidden;
+}
+
+.cera {
+	background-image: url(http://placecera.com/310/310);
 }
 
 .whos-behind-box-1 .whos-behind-photo img {
